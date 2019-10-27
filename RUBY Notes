@@ -1,0 +1,13 @@
+RUBY NOTES
+
+--BASICS--
+print = print output to terminal (on same line)
+puts = (put string) like print but adds /n automatically
+gets.chomp = (get string.chomp) ruby version of python's input()
+#{} = input variable into string : 'Hello, #{name}'
+
+--OPERATORS--
+&& = boolean and
+|| = boolean or
+
+
