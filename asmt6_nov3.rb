@@ -53,5 +53,3 @@ def stringThings(str)
 	end
 	return str
 end
-
-puts divide(11,2)
