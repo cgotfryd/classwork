@@ -3,7 +3,7 @@ def hello
 end
 
 def divide(num1,num2)
-	return num1/num2
+	return num1.to_f/num2.to_f
 end
 
 def grading(mark)
@@ -53,3 +53,5 @@ def stringThings(str)
 	end
 	return str
 end
+
+puts divide(11,2)
