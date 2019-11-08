@@ -10,9 +10,9 @@ for i in 0...story.length
 			redacted = true
 		end
 	end
-	if redacted
-		story[i] = 'REDACTED'
+	if redacted then
+		print "REDACTED "
+	else
+		print "#{story[i]} "
 	end
 end
-
-puts story.join(" ")
